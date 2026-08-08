@@ -1,0 +1,107 @@
+$date
+	Sat Aug  8 13:55:39 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_good_counter $end
+$var wire 2 ! cnt [1:0] $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 $ comp $end
+$var reg 2 % cnt [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+0$
+1#
+0"
+b0 !
+$end
+#5000
+1"
+#10000
+0"
+#15000
+1"
+#20000
+0"
+0#
+#25000
+b1 !
+b1 %
+1"
+#30000
+0"
+#35000
+1$
+b10 !
+b10 %
+1"
+#40000
+0"
+#45000
+0$
+b0 !
+b0 %
+1"
+#50000
+0"
+#55000
+b1 !
+b1 %
+1"
+#60000
+0"
+#65000
+1$
+b10 !
+b10 %
+1"
+#70000
+0"
+#75000
+0$
+b0 !
+b0 %
+1"
+#80000
+0"
+#85000
+b1 !
+b1 %
+1"
+#90000
+0"
+#95000
+1$
+b10 !
+b10 %
+1"
+#100000
+0"
+#105000
+0$
+b0 !
+b0 %
+1"
+#110000
+0"
+#115000
+b1 !
+b1 %
+1"
+#120000
+0"
