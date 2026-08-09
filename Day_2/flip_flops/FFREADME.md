@@ -103,6 +103,3 @@ flip_flops/
 
 To implement and understand different D Flip-Flop control configurations using Verilog HDL and distinguish between synchronous and asynchronous control signals.
 
-## Note
-
-This directory currently contains the RTL Verilog implementations. Waveform and GTKWave results can be added separately later.
