@@ -1,0 +1,18 @@
+read_verilog ../hierarchical_synthesis/hierarchical_synth.v
+
+hierarchy -top multiple_modules
+
+proc
+opt
+
+flatten
+
+opt
+
+abc -liberty /home/vsduser/VLSI/vsdflow/sky130RTLDesignAndSynthesisWorkshop/my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+clean
+
+write_verilog -noattr flat_synth_post.v
+
+stat
