@@ -1,1 +1,0 @@
-Combinational and sequential Optimizations
