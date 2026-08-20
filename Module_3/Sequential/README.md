@@ -221,13 +221,13 @@ read_verilog dff_const5.v
 ## Step 4 – Set the top module
 
 ```text
-prep -top dff_const4
+synth -top dff_const4
 ```
 
 or:
 
 ```text
-prep -top dff_const5
+synth -top dff_const5
 ```
 
 ---
@@ -241,15 +241,14 @@ opt_clean
 For a complete synthesis flow:
 
 ```text
-proc
-opt
-memory
-opt
-techmap
-opt
-abc
-opt
-```
+iverilog dff_const3.v tb_dff_const3
+./a.out
+gtkwave dff_const3.v
+yosys
+dfflib
+abc -liberty
+show 
+'''
 
 ---
 
