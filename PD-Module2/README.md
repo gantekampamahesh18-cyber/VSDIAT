@@ -433,7 +433,7 @@ The timing waveform example shows the 20% and 80% thresholds at approximately **
 
 ---
 
-# 23. Transition Time
+# 15. Transition Time
 
 Transition time represents how quickly a signal changes between two voltage thresholds.
 
@@ -454,7 +454,7 @@ Time at 20% VDD - Time at 80% VDD
 Using 20% and 80% thresholds avoids measuring extremely close to the supply rails.
 
 
-# 24. Propagation Delay
+# 16. Propagation Delay
 
 Propagation delay represents the time difference between a specified input transition and the corresponding output transition.
 
